@@ -75,8 +75,15 @@ console.log(x);
 
 console.log("------------");
 
-const ab= ["a", "b", "c", "d", "e", "f"];
+const ab= ["a", "b", "c", "d", "e", "f", "d"];
 console.log(ab);
 
 const abilgis = ab.length;
+console.log(abilgis);
+
 const paskutinesRaidesPozicija = abilgis - 1;
+const paskutineRaide = ab[paskutinesRaidesPozicija];
+console.log(paskutineRaide);
+
+const abAtsakymas = 'Is mums zinomos ' + abilgis + ' raidziu abeceles paskutine yra "' + paskutineRaide + '".';
+console.log(abAtsakymas);
