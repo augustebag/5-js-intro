@@ -117,3 +117,153 @@ if (akys !== 'Melynos' &&
     akys !== 'Rudos') {
         console.log('Ar tu turi akis?');
     }
+
+    console.log('---------------------');
+
+
+    // UZDUOTIS 1
+
+const x = 99;
+const z = 87;
+
+if ( x > z) {
+    console.log('Obuolys');
+} else {
+    console.log('Bandykite dar karta');
+}
+
+if ( x < z) {
+    console.log('Obuolys');
+} else {
+    console.log('Bandykite dar karta');
+}
+
+if ( x == z) {
+    console.log('Obuolys');
+} else {
+    console.log('Bandykite dar karta');
+}
+
+if ( x != z) {
+    console.log('Obuolys');
+} else {
+    console.log('Bandykite dar karta');
+}
+if ( x >= z) {
+    console.log('Obuolys');
+} else {
+    console.log('Bandykite dar karta');
+}
+
+if ( x <= z) {
+    console.log('Obuolys');
+} else {
+    console.log('Bandykite dar karta');
+}
+
+console.log('---------------------');
+
+// UZDUOTIS 2
+
+const obuolys = 'Obuolys';
+const obuolioIlgis = obuolys.length;
+console.log(obuolioIlgis);
+
+const braske = 'Braske';
+const braskesIlgis = braske.length;
+console.log(braskesIlgis);
+
+console.log('---------------------');
+
+// UZDUOTIS 3
+
+if (obuolys > braske) {
+    console.log('Pomidoriukas');
+} else {
+    console.log('Bandykite dar karta');
+}
+
+if (obuolys < braske) {
+    console.log ('Pomidoriukas');
+} else {
+    console.log('Bandykite dar karta');
+}
+
+if (obuolys == braske) {
+    console.log('Pomidoriukas');
+} else {
+    console.log('Bandykite dar karta');
+}
+
+if (obuolys != braske) {
+    console.log('Pomidoriukas');
+} else {
+    console.log('Bandykite dar karta');
+}
+
+if (obuolys >= braske) {
+    console.log('Pomidoriukas');
+} else {
+    console.log('Bandykite dar karta');
+}
+
+if (obuolys >= braske) {
+    console.log('Pomidoriukas');
+} else {
+    console.log('Bandykite dar karta');
+}
+
+console.log('---------------------');
+
+// UZDUOTIS 4
+
+const upes = ['Nemunas', 'Neris', 'Lomena', 'Sesupe', 'Minija', 'Merkys', 'Nevezis'];
+console.log(upes);
+
+const upiuIlgis = upes.length
+console.log(upiuIlgis);
+
+const ezerai = ['Tauragnas', 'Vistytis', 'Alausas'];
+console.log(ezerai);
+
+const ezeruIlgis = ezerai.length;
+console.log(ezeruIlgis);
+
+console.log('---------------------');
+
+// UZDUOTIS 5
+
+if (upiuIlgis > ezeruIlgis) {
+    console.log('Upiu yra daugiau.');
+} else {
+    console.log('Bandyti dar karta..');
+}
+
+if (upiuIlgis < ezeruIlgis) {
+    console.log('Upiu yra maziau.');
+} else {
+    console.log('Bandyti dar karta..');
+}
+
+if (upiuIlgis == ezeruIlgis) {
+    console.log('Upiu ir ezeru skaicius yra lygus.');
+} else {
+    console.log('Bandyti dar karta..')
+}
+
+if (upiuIlgis != ezeruIlgis) {
+    console.log('Upiu ir ezeru skaicius yra nelygus.');
+} else {
+    console.log('Bandyti dar karta..');
+}
+if (upiuIlgis >= ezeruIlgis) {
+    console.log('Upiu skaicius yra didesnis uz ezeru.');
+} else {
+    console.log('Bandyti dar karta..')
+}
+
+if (upiuIlgis <= ezeruIlgis) {
+    console.log('Upiu skaicius nera didesnis uz ezeru');
+} else {
+    console.log('Bandyti dar karta..');
+}
