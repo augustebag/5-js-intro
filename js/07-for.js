@@ -62,3 +62,30 @@ for (let i=0; i<abc.length; i++) {
 
 //
 console.log('----------------');
+
+// UZDUOTYS 1
+
+for (let p=0; p<5; p++) {
+    console.log(p);
+}
+
+for (let p=0; p<101; p++) {
+    console.log(p);
+}
+
+for (let p=574; p<816; p++) {
+    console.log(p);
+}
+
+for (let p=-50; p<51; p++) {
+    console.log(p);
+}
+
+for (let p=-70; p<31; p++) {
+    console.log(p);
+}
+
+// UZDUOTIS 2
+
+const u = ['a', 'b', 'c', 'd', 'e', 'f'];
+console.log(u[5] + u[4] + u[3] + u[2] + u[1] + u[0]);
