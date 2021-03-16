@@ -1,4 +1,4 @@
-const nuo = 1;
+const nuo = 5;
 const iki = 9;
 const daliklis = 7;
 let kiekis = 0;
