@@ -6,7 +6,17 @@ function daugyba (a, b) {
     if (typeof a !=='number') {
        return 'Pirmasis parametras turi buti skaiciaus tipo';
     }
-    if (isNaN(a) || a === Infinity || a === -Infinity) {
+    //if (isNaN(a) || a === Infinity || a === -Infinity) {
+    //    return `Pirmasis parametras turi buti normalus skaicius ir negali buti ${a}`; 
+    //}
+    
+    // ARBA
+
+    // if (!isFinite(a))
+
+    // ARBA
+
+    if ('' + a === 'NaN' || Math.abs(a) === Infinity) {
         return `Pirmasis parametras turi buti normalus skaicius ir negali buti ${a}`; 
     }
 
