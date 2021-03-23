@@ -76,7 +76,33 @@ while (randomNumber < 0.9) {
 
 let dwi = 0;
 
-do {
-    console.log(dwi);
-    dwi++;
-} while (dwi < 5)
+//do {
+  //  console.log(dwi);
+    //for (dwi > 2) {
+    //    break;
+    //}
+    //dwi++;
+//} while (dwi < 5)
+
+
+// FORREACH
+
+let FEsuma = 0;
+list.forEach(n => FEsuma += n) 
+    console.log(FEsuma);
+
+    // pvz
+
+const doubleList = [[1, 5], [8, 99], [-8, -7, 15, 4], [3]];
+let dlSuma = 0;
+
+doubleList.forEach(item => console.log(item));
+
+
+// MAP 
+// map ( metodas perejes per duota sarasa grazina tokio pacio dydzio sarasa, tik su pakeistomis reiksmemis)
+
+const mapList = [1, 2, 3, 4, 5, 6];
+const mapListSquare = [];
+
+for (
