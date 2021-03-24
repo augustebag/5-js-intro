@@ -105,4 +105,17 @@ doubleList.forEach(item => console.log(item));
 const mapList = [1, 2, 3, 4, 5, 6];
 const mapListSquare = [];
 
-for (
+console.log('--------------');
+
+// SORT 
+
+const sortabc = ['a', 'b', 'labas', 'c', 'd'];
+const sortedabc = sortabc.sort();
+console.log(sortedabc);
+
+const sortList = [1, -5, 78, 2, 11, -14, 0, -3];
+const sortedNumber = sortList.sort((a, b) => a > b ? -1:1);
+//const sortedNumber = sortList.sort((a, b) => a - b ? -1:1);
+//const sortedNumber = sortList.sort((a, b) => a - b ?);
+console.log(sortedNumber);
+console.log(sortList);
